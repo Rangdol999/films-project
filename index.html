@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Project</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <section class="head-content">
+        <!--Navigation-->
+        <header class="navhead" id="navhead">
+            <div class="container">
+                <div class="logo">
+                    <h1>WMOVIES</h1>
+                </div>
+                <div class="wrapper">
+                    <div class="hamnav">
+                        <label for="hamburger">&#9776;</label>
+                        <input type="checkbox" id="hamburger">
+                        <div class="navbar" id="navbar">
+                            <div class="menu">
+                                <a href="#home">Home</a>
+                                <a href="#about">About</a>
+                                <a href="#others">Others</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </header>
+        <!--Catagories-->
+        <div id="home" class="catagories">
+            <div class="p1">
+                <p>Animation</p>
+                <p>Adventure </p>
+                <p>Comedy</p>
+            </div>
+            <p class="p2" ><span class="prime">Minions: </span><br> Yellow is the sky Black <span class="prime1">(2018)</span></p>
+            <p class="p3"><a href="https://www.youtube.com/watch?v=tmtHyEhZRF4&t=20s"><i class="fas fa-1x fa-play"></i> Watch Trailer</a></p>
+        </div>
+    </section>
+
+    <section id="about" class="show">
+        <div class="show-cata">
+            <div class="image">
+                <img src="/image/yellow.jpg" alt="">
+            </div>
+            <div class="about-show">
+                <h2><span class="prime2"> Yellow</span> is the new Black</h2>
+                <h3>Storyline</h3>
+                <div class="adiv"></div>
+                <p>An Adventure about two minions which try to escape from jail.</p>
+                <div class="show-info">
+                    <div class="left-box">
+                        <ul>
+                            <li class="p1">Duration:<span class="dat">1h30min</span></li>
+                            <li class="p2">Genre:<span class="dat">Animation, comedy</span></li>
+                            <li class="p3">Country:<span class="dat">France , US America</span></li>
+                            <li class="p4">Realease:<span class="dat">2018/08/11</span></li>
+                            <li class="p5">Director:<span class="dat">Sergey Kushneryov, Fabien Polack </span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timetab">
+                    <div class="row">
+                        <h4>Available time:</h4>
+                        <p class="p6">8:30</p>
+                        <p class="p7">11:30</p>
+                        <p class="p8">14:30</p>
+                        <p class="p9">16:30</p>
+                        <button class="btn"><i class="fas fa-shopping-cart"></i> BY TICKET</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="others" id="others">
+        <h3>Like To Watch</h3>
+        <div class="collection">
+            <a href="https://www.youtube.com/watch?v=LKFuXETZUsI"><img src="/image/moana.jpg" alt=""></a>
+            <a href="https://www.youtube.com/watch?v=hrkGNaYOv5k"><img src="/image/Rumble_000.jpg" alt=""></a>
+            <a href="https://www.youtube.com/watch?v=oagwBHoh6Rs"><img src="/image/image.jpg" alt=""></a>
+            <a href="https://www.youtube.com/watch?v=pqdHP2dWQ9M"><img src="/image/Turning_Red_Poster.jpg" alt=""></a>
+        </div>
+        <div class="info">
+            <div class="info-left">
+                <h1>Menu</h1>
+                <p>Home</p>
+                <p>Coming soon</p>
+            </div>
+            <div class="info-center">
+                <h1>Adresse info</h1>
+                <p>100 rue de Paris</p>
+                <P>75000, PARIS</P>
+            </div>
+            <div class="contact-info">
+                <h1>Leave a message</h1>
+                <input type="text" name="name" value="Name*">
+                <input type="text" name="email" value="E-mail*">
+                <textarea name="comment" id="comment" cols="55" rows="5" placeholder="Comments*"></textarea>
+                <button class="btn" type="submit">Send</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
